@@ -1,0 +1,532 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+/* HEADER DESIGNING */
+
+header {
+  height: 80px;
+  width: 100%;
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+header img {
+  height: 38px;
+}
+
+.responsiveHead {
+  display: flex;
+  width: 70%;
+  /* background-color: red; */
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.headerItem1 {
+  height: 100%;
+  width: 360px;
+  /* background-color: green; */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.headerItem1 a {
+  text-decoration: none;
+  color: black;
+  font-size: 22px;
+
+  font-weight: 500;
+}
+
+.headerItem2 {
+  height: 100%;
+  width: 300px;
+  /* background-color: blue; */
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.headerButton1 {
+  height: 40px;
+  width: 95px;
+  background-color: #ececec;
+  color: black;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  font-size: 17px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.headerButton2 {
+  height: 40px;
+  width: 135px;
+  background-color: black;
+  color: white;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  font-size: 17px;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+/************** section 1 design **********/
+
+.section1 {
+  width: 100%;
+  height: 80vh;
+  /* background-color: green; */
+  background-image: url(./images/Rectangle\ 1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.section1 img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.section1Main {
+  height: 390px;
+  width: 75%;
+  background-color: white;
+  border-radius: 10px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.mainDivh1 {
+  height: 70px;
+  width: 40%;
+  /* background-color: green; */
+  text-align: center;
+}
+
+.mainDivh1 h1 {
+  font-size: 44px;
+  font-weight: 500;
+  color: black;
+}
+
+.sec1MainItem {
+  height: 70%;
+  width: 90%;
+  /* background-color: red; */
+  padding: 10px;
+}
+
+.inputItem {
+  width: 100%;
+  height: 70px;
+  /* background-color: blue; */
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.innerInput {
+  height: 45px;
+  width: 18%;
+  background-color: #ececec;
+  border-radius: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 21px;
+  font-weight: 500;
+}
+
+.innerInput i {
+  font-size: 27px;
+}
+
+.inputItem2 {
+  height: 70px;
+  width: 100%;
+  /* background-color: blue; */
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.inputInnerDiv1 {
+  height: 45px;
+  width: 58%;
+  background-color: #ececec;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 7px;
+}
+
+.inputInnerDiv1 p {
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.inputItem2 button {
+  height: 45px;
+  width: 17%;
+  font-size: 23px;
+  font-weight: 600;
+  border-radius: 20px;
+  border: none;
+  background-color: #00ebc7;
+  cursor: pointer;
+}
+
+.lastDiv {
+  height: 55px;
+  width: 200px;
+  /* background-color: green; */
+  margin-top: 100px;
+  border-radius: 30px;
+  border: 2px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.lastDiv p {
+  border-bottom: 2px solid white;
+  font-size: 20px;
+  font-weight: 400;
+  color: white;
+}
+
+/************** SECTION 2 DESIGN ********/
+
+.section2 {
+  height: 40vh;
+  width: 100%;
+  background-color: #fde24f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-bottom: 1px solid black;
+}
+
+.section2 h2 {
+  font-size: 2vw;
+  font-weight: 600;
+}
+
+.section2Img {
+  height: 27%;
+  width: 100%;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.section2 img {
+  height: 100%;
+  width: 60%;
+  margin-top: 40px;
+}
+
+/************ SECTION3 DESIGN ***********/
+
+.section3 {
+  width: 100%;
+  height: 80vh;
+  /* border-bottom: 2px solid black; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section3MainDiv {
+  height: 95%;
+  width: 95%;
+  /* background-color: green; */
+  padding-left: 30px;
+  padding-top: 50px;
+}
+
+.section3 h1 {
+  font-size: 33px;
+  font-weight: 500;
+  padding-left: 5px;
+}
+
+.sec3Item {
+  height: 90%;
+  width: 95%;
+  /* background-color: blue; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sec3FlexItem {
+  /* height: 85%; */
+  height: 450px;
+  /* background-color: red; */
+  /* display: flex;
+    align-items: end;
+    justify-content: center;
+    flex-direction: column; */
+  text-align: center;
+  /* padding-left: 8vw; */
+  padding-top: 4vw;
+  position: relative;
+  width: 30%;
+}
+
+.sec3FlexItem h2 {
+  font-size: 25px;
+  font-weight: 500;
+  color: black;
+}
+
+.sec3FlexItem .sec3p1 {
+  font-size: 19px;
+  color: #686868;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.sec3p2 {
+  font-size: 15.5px;
+  color: black;
+  margin-top: 20px;
+  border-bottom: 1px solid black;
+  font-weight: 600;
+}
+
+.line {
+  height: 1px;
+  width: 7vw;
+  background-color: black;
+  /* position: absolute;
+    margin-right: 31.5vw; */
+  margin-bottom: 6.5vw;
+}
+
+.button {
+  height: 50px;
+  width: 100%;
+  /* background-color: blueviolet; */
+  /* position: absolute;
+    bottom: 0; */
+  margin-top: 5vw;
+}
+
+.button button {
+  height: 100%;
+  width: 11vw;
+  border-radius: 20px;
+  border: 2px solid black;
+  background-color: transparent;
+  font-size: 1.2vw;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+/***************** section 4 design *******/
+
+.section4 {
+  height: 80vh;
+  width: 100%;
+  /* background-color: red; */
+  /* display: flex; */
+  /* padding: 15px; */
+}
+
+.mainContent {
+  height: 100%;
+  width: 100%;
+  /* background-color: yellow; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sec4Left,
+.sec4Right {
+  height: 100%;
+  width: 45%;
+  /* background-color: blue; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-right: 1px solid black;
+  border-top: 1px solid black;
+}
+
+.sec3Main {
+  height: 100px;
+  /* width: 80%; */ 
+  /* background-color: blueviolet; */
+  margin-top: 20px;
+  border-radius: 10px;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 3vw;
+  padding: 13px;
+}
+
+.sec3Main p {
+  font-size: 23.4px;
+  font-weight: 500;
+}
+
+.sec4Left button {
+  padding: 0.5vw 1.6vw;
+  border-radius: 10px;
+  border: none;
+  margin-top: 26px;
+  font-size: 1.2vw;
+  font-weight: 500;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.h1div {
+  width: 80%;
+  /* background-color: #00ebc7; */
+  margin-bottom: 20px;
+}
+
+.h1div h1 {
+  font-size: 35px;
+  font-weight: 400;
+}
+
+.brNone {
+  border-right: none;
+}
+
+/************ SECTION 5 DESIGN *********/
+
+
+.section5{
+    height: 60vh;
+    width: 100%;
+    background-color: #cfbaff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid black;
+}
+
+
+.section5 h1{
+    font-size: 4vw;
+    font-weight: 500;
+    margin-bottom: 3vw;
+}
+
+.getStart{
+    padding: 1vw 3.4vw;
+    background-color: black;
+    margin-top: 3vw;
+    border-radius: 40px;
+    color: white;
+    font-size: 1.8vw;
+    cursor: pointer;
+}
+
+/* SECTION 6 DESIGN */
+
+.section6{
+    height: 60vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.sec6Main{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 2px solid white;
+    margin-bottom: 60px;
+}
+
+.stflex1{
+    height: 100%;
+    width: 35%;
+    /* background-color: green; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1px;
+}
+
+.section6Item{
+    height: 100%;
+    width: 50%;
+    /* background-color: blue; */
+    padding: 1vw;
+}
+
+.section6Item h1{
+    font-size: 50px;
+    color: white;
+    font-weight: 500;
+    margin-left: 20px;
+
+}
+
+.section6Item h2{
+    font-size: 28px;
+    font-weight: 500;
+    color: white;
+    margin-top: 1.5vw;
+    margin-bottom: 27px;
+}
+
+.section6Item p{
+    font-size: 18px;
+    color: white;
+    font-weight: 400;
+    margin-top: 14px;
+}
+
+
+.lastPara{
+    font-size: 12px;
+    margin-bottom: 25px;
+    color: white;
+    font-weight: 300;
+}
